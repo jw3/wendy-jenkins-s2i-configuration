@@ -1,4 +1,4 @@
-#!/bin/sh -xe
+#!/bin/bash -xe
 
 if [ -z "${GHORG}" ]; then
    GHORG=feedhenry
