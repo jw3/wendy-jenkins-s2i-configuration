@@ -134,7 +134,7 @@ objects:
     name: ${SERVICE_NAME}-pv
   spec:
     accessModes:
-    - ReadWriteOnce
+    - ReadWriteMany
     resources:
       requests:
         storage: ${VOLUME_CAPACITY}
