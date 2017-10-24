@@ -107,6 +107,8 @@ objects:
             value: 'true'
           - name: JAVA_GC_OPTS
             value: "-XX:+UseParallelGC -XX:MinHeapFreeRatio=20 -XX:MaxHeapFreeRatio=40 -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -XX:MetaspaceSize=150m"
+          - name: NO_PROXY
+            value: 172.30.0.1
           resources:
             limits:
               memory: "${MEMORY_LIMIT}"
