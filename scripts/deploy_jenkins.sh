@@ -1,5 +1,7 @@
 #!/bin/bash -xe
 
+readonly PROJECT_NAME="${PROJECT_NAME:-$1}"
+
 if [ -z "${GHORG}" ]; then
    GHORG=feedhenry
 fi
